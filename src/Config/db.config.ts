@@ -10,7 +10,7 @@ const password = process.env.password
 const dbName = process.env.DBName
 
 //connection string to mongo atlas
-const connectionString = `mongodb+srv://${username}:${password}@cluster0.3serk.mongodb.net/${dbName}?retryWrites=true&w=majority`
+const connectionString = `mongodb+srv://idodoo:${password}@cluster0.3serk.mongodb.net/${dbName}?retryWrites=true&w=majority`
 
 
 const options = {

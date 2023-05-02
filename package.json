@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./src/Server/app.ts",
-    "swagger-autogen": "ts-node ./src/Config/swagger.ts",
+    "swagger-autogen": "ts-node ./src/swagger.ts",
     "dev": " nodemon ./src/Server/app.ts",
     "build": "tsc --project tsconfig.json",
     "lint": "eslint --ext .js,.ts .",
